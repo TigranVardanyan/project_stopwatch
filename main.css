@@ -1,0 +1,50 @@
+* {
+    font-family: 'Nova Square', cursive;
+}
+
+body {
+    background-color: #6d7dc56b;
+}
+
+.wrapepr {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 480px;
+    width: 320px;
+}
+
+
+.panel {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: translate(0,-50%);
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+.panel span {
+    width: 40px;
+    display: inline-block;
+}
+
+.conPanel {
+    width: 260px;
+    height: 80px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    height: 50%;
+    width: 200%;
+}

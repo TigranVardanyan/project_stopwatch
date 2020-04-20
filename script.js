@@ -66,9 +66,9 @@
         timeNow = Math.round((new Date()).getTime());
         time = timeNow - timeStart;
         let msec = time % 100;
-        let sec = (time / 1000 % 60).toFixed(0);
-        let min = (time / 1000 / 60  % 60).toFixed(0);
-        let hour = (time / 1000 / 60 / 60 % 24).toFixed(0);
+        let sec = Math.floor(time / 1000 % 60).toString();
+        let min = Math.floor(time / 1000 / 60  % 60).toString();
+        let hour = Math.floor(time / 1000 / 60 / 60 % 24).toString();
         if (hour.length < 2) {
             hour = "0" + hour;
         }
